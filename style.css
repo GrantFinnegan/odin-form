@@ -3,3 +3,13 @@
     --selected-color : blue;
     --invalid-color : red;
 }
+
+.main {
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    background-color: white;
+}
