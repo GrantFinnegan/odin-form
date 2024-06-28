@@ -88,6 +88,7 @@ body {
 
 .submit-btn {
     margin: 3rem;
+    padding: 1em 3em;
 
     font: inherit;
     font-weight: bold;
@@ -95,7 +96,7 @@ body {
     background-color: var(--button-color);
     border: 0;
     border-radius: 8px;
-    padding: 1em 3em;
+    box-shadow: 4px 4px 4px darkgray;
 }
 
 .login-prompt {
