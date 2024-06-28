@@ -30,7 +30,9 @@ body {
 .image-attribution {
     position: absolute;
     bottom: 1rem;
-    left: 175px;
+    left: 0;
+    text-align: center;
+    width: 100%;
     color: white;
 }
 .image-attribution>a {
