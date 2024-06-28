@@ -93,6 +93,10 @@ body {
     font-weight: bold;
 }
 
+.input-container>ul {
+    display: flex;
+}
+
 .submit-btn {
     margin: 3rem;
     padding: 1em 3em;
