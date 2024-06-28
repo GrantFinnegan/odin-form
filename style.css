@@ -109,6 +109,11 @@ body {
     flex: 0 1 250px;
 }
 
+label {
+    font-size: .75rem;
+    font-weight: bold;
+}
+
 .submit-btn {
     margin: 3rem;
     padding: 1em 3em;
