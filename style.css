@@ -95,15 +95,20 @@ body {
 
 .input-container>ul {
     display: flex;
-    flex-wrap: wrap;
-    column-gap: 3rem;
+    flex-flow: column wrap;
     row-gap: 1rem;
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-.input-container>ul>li {
+.input-container>ul>div {
+    flex-flow: row wrap;
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.input-container>ul li {
     display: flex;
     flex-direction: column;
     flex: 0 1 250px;
