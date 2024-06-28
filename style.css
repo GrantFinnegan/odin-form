@@ -12,7 +12,7 @@
     --gray: #E5E7EB;
     --selected-color: blue;
     --invalid-color: red;
-    --button-color: #596D48;
+    --interactive-color: #596D48;
 }
 
 * {
@@ -93,7 +93,7 @@ body {
     font: inherit;
     font-weight: bold;
     color: white;
-    background-color: var(--button-color);
+    background-color: var(--interactive-color);
     border: 0;
     border-radius: 8px;
     box-shadow: 4px 4px 4px darkgray;
