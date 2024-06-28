@@ -96,6 +96,8 @@ body {
 .input-container>ul {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 1rem;
     list-style-type: none;
     padding: 0;
     margin: 0;
