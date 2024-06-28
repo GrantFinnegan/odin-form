@@ -8,9 +8,10 @@
 }
 
 :root {
-    --light-gray :#E5E7EB;
-    --selected-color : blue;
-    --invalid-color : red;
+    --light-gray: #E5E7EB;
+    --selected-color: blue;
+    --invalid-color: red;
+    --button-color: #596D48;
 }
 
 * {
@@ -86,6 +87,14 @@ body {
 
 .submit-btn {
     margin: 3rem;
+
+    font: inherit;
+    font-weight: bold;
+    color: white;
+    background-color: var(--button-color);
+    border: 0;
+    border-radius: 8px;
+    padding: 1em 3em;
 }
 
 .login-prompt {
