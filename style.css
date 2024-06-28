@@ -20,10 +20,18 @@ body {
 
 .sidebar {
     width: 500px;
+    position: relative;
 }
 
 .sidebar>img {
     width: 100%;
+}
+
+.sidebar>.image-attribution {
+    position: absolute;
+    bottom: 1rem;
+    left: 175px;
+    background-color: white;
 }
 
 .main {
