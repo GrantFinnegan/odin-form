@@ -76,6 +76,7 @@ body {
 .pre-form-info {
     font-size: 1.5rem;
     font-weight: bold;
+    padding: 3rem;
 }
 
 .input-container {
