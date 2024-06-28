@@ -27,11 +27,14 @@ body {
     width: 100%;
 }
 
-.sidebar>.image-attribution {
+.image-attribution {
     position: absolute;
     bottom: 1rem;
     left: 175px;
-    background-color: white;
+    color: white;
+}
+.image-attribution>a {
+    color: inherit;
 }
 
 .main {
