@@ -101,6 +101,12 @@ body {
     margin: 0;
 }
 
+.input-container>ul>li {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 250px;
+}
+
 .submit-btn {
     margin: 3rem;
     padding: 1em 3em;
