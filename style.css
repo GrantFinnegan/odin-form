@@ -93,7 +93,7 @@ body {
     font-weight: bold;
 }
 
-.input-container>ul {
+#input-list {
     display: flex;
     flex-flow: column wrap;
     row-gap: 1rem;
@@ -102,13 +102,13 @@ body {
     margin: 0;
 }
 
-.input-container>ul>div {
+#input-list>div {
     flex-flow: row wrap;
     display: flex;
     flex: 0 0 auto;
 }
 
-.input-container>ul li {
+#input-list li {
     display: flex;
     flex-direction: column;
     flex: 0 1 250px;
