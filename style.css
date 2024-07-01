@@ -131,6 +131,16 @@ label {
     box-sizing: border-box;
 }
 
+input:focus {
+    outline: none;
+    border: 2px solid var(--selected-color);
+    box-shadow: 4px 4px 4px darkgray;
+}
+
+input:invalid {
+    border: 2px solid var(--invalid-color);
+}
+
 .submit-btn {
     margin: 3rem;
     padding: 1em 3em;
