@@ -106,6 +106,8 @@ body {
     flex-flow: row wrap;
     display: flex;
     flex: 0 0 auto;
+    column-gap: 3rem;
+    row-gap: .5rem;
 }
 
 #input-list li {
